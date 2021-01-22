@@ -10,6 +10,7 @@
 #include "signalk/signalk_value_listener.h"
 #include "transforms/transform.h"
 
+#include "user_settings.h"
 
 ReactESP app([]() {
 #ifndef SERIAL_DEBUG_DISABLED
@@ -36,8 +37,8 @@ ReactESP app([]() {
   SensESPAppBuilder builder;
 
   sensesp_app = builder.set_hostname("AZTouch")
-                    ->set_wifi("your-wifi-ssid", "your-wifi-password")
-                    ->set_sk_server("your-SK-server", 3000)
+                    ->set_wifi(WIFI_SSID, WIFI_PASSWD)
+                    ->set_sk_server(SK_SERVER, SK_PORT)
                     ->set_standard_sensors()
                     ->get_app();
   
