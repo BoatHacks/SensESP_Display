@@ -18,16 +18,17 @@
     {
       "name": "Matti Airas",
       "email": "mairas@iki.fi",
-      "url": "https://github.com/mairas/",
-      "maintainer": false
+      "url": "https://github.com/mairas/"
     }
   ],
   "dependencies": [
     {
-      "name": "SensESP"
+      "name": "SignalK/SensESP",
+      "version": "~1.0.1"
     },
     {
-      "name": "TFT_eSPI"
+      "name": "bodmer/TFT_eSPI",
+      "version": "^2.3.58"
     }
   ],
   "version": "0.0.23",
