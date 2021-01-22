@@ -1,0 +1,36 @@
+{
+  "name": "SensESP_Display",
+  "keywords": "SensESP, Signal K, marine, boat, sensor, hardware, embedded, device, display",
+  "description": "Display library for the SensESP framework",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/BoatHacks/SensESP_Display.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Tobias C. Rosenstock",
+      "email": "dev@air-discordia.org",
+      "url": "https://github.com/BoatHacks/",
+      "maintainer": true
+    },
+    {
+      "name": "Matti Airas",
+      "email": "mairas@iki.fi",
+      "url": "https://github.com/mairas/",
+      "maintainer": false
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "SensESP"
+    },
+    {
+      "name": "TFT_eSPI"
+    }
+  ],
+  "version": "0.0.23",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
